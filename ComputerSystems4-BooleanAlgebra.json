@@ -1,0 +1,208 @@
+{
+	"title": "Computer Systems 4 - Propositional Logic",
+	"questions": [
+		{
+			"questionStr": "--1-- logic is a system for formalising arguments, where statements are either --2-- or --3--",
+			"imgStr": "",
+			"answers": ["propositional, true ,false", "propositional, on, off", "predicate, true, false", "predicate, on, off"]
+		},
+		
+		{
+			"questionStr": "Statements in propositional logic are compounded with the operators --1--, --2-- and --3-.",
+			"imgStr": "",
+			"answers": ["AND, OR, NOT", "IF, FOR, WHILE", "AND, OR, IF", "+, -, /"]
+		},
+		
+		{
+			"questionStr": "Which of the following is an example of a combined proposition in propositional logic?",
+			"imgStr": "",
+			"answers": ["It is raining OR is is NOT warm outside", "For all x > 1, ln(x) > 1", "For all x AND for all Y", "x AND Y implies Z"]
+		},
+		
+		{
+			"questionStr": "What is the following?",
+			"imgStr": "cs-4-1.png",
+			"answers": ["Propositional logic diagram for the statement \"Take Umbrella = Rain OR Bad Weather Forecast\"", "Predicate logic diagram for \"Rain or Bad Weather Forecast implies Take Umbrella\"", "Predicate logic diagram for the statement \"Take Umbrella = Rain OR Bad Weather Forecast\"", "Propositional logic diagram for the statement \"Rain OR Bad Weather Forecast implies Take Umbrella\""]
+		},
+		
+		{
+			"questionStr": "What symbols are used for AND, OR and NOT in Boolean Algebra?",
+			"imgStr": "",
+			"answers": ["' = NOT, + = OR, • = AND", "¬ = NOT, + = OR, * = AND", "¬ = NOT, | = OR, & = AND", "' = NOT, | = OR, & = AND"]
+		},
+		
+		{
+			"questionStr": "How would you write the statement NOT C OR (A AND B) in Boolean algebra?",
+			"imgStr": "",
+			"answers": ["C' + (A • B)", "¬C | (A & B)", "C' • (A + B)", "C & (A | B)"]
+		},
+		
+		{
+			"questionStr": "What is the order of operator precedence in Boolean algebra from highest to lowest?",
+			"imgStr": "",
+			"answers": ["' = highest, • = middle, + = lowest", "+ = highest, • = middle, ' = lowest", "' = highest, + = middle, • = lowest", "• = highest, ' = middle, + = lowest"]
+		},
+		
+		{
+			"questionStr": "Which logical operation is the truth table below for?",
+			"imgStr": "cs-4-2.png",
+			"answers": ["AND", "OR", "NOT", "XOR"]
+		},
+		
+		{
+			"questionStr": "Which logical operation is the truth table below for?",
+			"imgStr": "cs-4-3.png",
+			"answers": ["OR", "NOT", "XOR", "AND"]
+		},
+		
+		{
+			"questionStr": "Which logical operation is the truth table below for?",
+			"imgStr": "cs-4-4.png",
+			"answers": ["NOT", "XOR", "AND", "OR"]
+		},
+		
+		{
+			"questionStr": "State the logical statement that the following truth table is for:",
+			"imgStr": "cs-4-5.png",
+			"answers": ["(R + W) • C'", "(R • W) + C'", "(R + W) • C", "(R • W) + C"]
+		},
+		
+		{
+			"questionStr": "What is stated by the associative rule in boolean algebra?",
+			"imgStr": "",
+			"answers": ["(A • B) • C = A • (B • C), (A + B) + C = A + (B + C)", "A • (B + C) = (A • B) + (A • C), A + (B • C) = (A + B) • (A + C)", "A • B = B • A, A + B = B + A", "(A • B)' = A' + B', (A + B)' = A' • B'"]
+		},
+		
+		{
+			"questionStr": "What is stated by the distributive rule in boolean algebra?",
+			"imgStr": "",
+			"answers": ["A • (B + C) = (A • B) + (A • C), A + (B • C) = (A + B) • (A + C)", "(A • B) • C = A • (B • C), (A + B) + C = A + (B + C)", "A • B = B • A, A + B = B + A", "(A • B)' = A' + B', (A + B)' = A' • B'"]
+		},
+		
+		{
+			"questionStr": "What is stated by the commutative rule in boolean algebra?",
+			"imgStr": "",
+			"answers": ["A • B = B • A, A + B = B + A", "(A • B) • C = A • (B • C), (A + B) + C = A + (B + C)", "A • (B + C) = (A • B) + (A • C), A + (B • C) = (A + B) • (A + C)", "(A • B)' = A' + B', (A + B)' = A' • B'"]
+		},
+		
+		{
+			"questionStr": "What is stated by the idempotant law of boolean algebra?",
+			"imgStr": "",
+			"answers": ["A • A = A, A + A = A", "A • B = B • A, A + B = B + A", "(A • B) • C = A • (B • C), (A + B) + C = A + (B + C)", "A • (B + C) = (A • B) + (A • C), A + (B • C) = (A + B) • (A + C)"]
+		},
+		
+		{
+			"questionStr": "How can equations including 1 or 0 be simplified?",
+			"imgStr": "",
+			"answers": ["A • 0 = 0, A • 1 = A, A + 0 = A, A + 1 = 1", "A • 0 = 0, A • 1 = 0, A + 0 = A, A + 1 = 0", "A • 0 = 0, A • 1 = 1, A + 0 = 0, A + 1 = A", "A • 0 = 1, A • 1 = A, A + 0 = A, A + 1 = A"]
+		},
+		
+		{
+			"questionStr": "How do we prove A + A•(B) = A",
+			"imgStr": "",
+			"answers": ["First, add backets for clarity: A + A•(B) = A + (A•B), then use the distributive law to get A • (1 + B), 1 + B = 1, so A + A•(B) = A", "First, add backets for clarity: A + A•(B) = A + (A•B), then use the associative law to get A • (1 + B), 1 + B = 1, so A + A•(B) = A", "First, add backets for clarity: A + A•(B) = A + (A•B), then use the distributive law to get A + A•(B) = (A + A) • (A + B), then use (A + A) = A. Since we have A • (A + B), we can get rid of the (A + B), since A must be true anyway, so A + A•(B) = A", "First, add backets for clarity: A + A•(B) = A + (A•B), then use the distributive law to get A + A•(B) = (A + A) • (A + B), then use (A + A) = A. Since we have A • (A + B), we can get rid of the (A + B), since A must be true anyway, so A + A•(B) = A"]
+		},
+		
+		{
+			"questionStr": "What does De Morgan's Theorem State?",
+			"imgStr": "",
+			"answers": ["(A+B)' = A' • B', (A•B)' = A' + B'", "(A+B)' = A' + B', (A•B)' = A' • B'", "(A + B)' = A' + B', (A•B)' = A' + B'", "(A + B)' = A' • B', (A • B)' = A' • B'"]
+		},
+		
+		{
+			"questionStr": "How many numbers of terms does de Morgan's Theorem hold for?",
+			"imgStr": "",
+			"answers": ["Any, e.g. (A + B + C)' = A'•B'•C'", "Three or less, e.g. (A + B + C)' = A'•B'•C'", "Only two, e.g. (A+B)' = A'•B'", "All even numbers, e.g. (A+B)' = A'•B' but not (A+B+C)' = A'•B'•C'"]
+		},
+		
+		{
+			"questionStr": "What is the Principle of Duality in Boolean Algebra?",
+			"imgStr": "",
+			"answers": ["Every Boolean equation has a dual which is found by replacing the AND operator with OR and vice versa. If a statement is true, so is its dual.", "That statements can only be true or false but not both - this is also called the Law of Excluded Middle.", "Every Boolean equation has a dual which is found by replacing the AND operator with OR and vice versa. If a statement is true, its dual must be false.", "That statements can only be true or false but not both. This is also known as the Law of Dual Logic."]
+		},
+		
+		{
+			"questionStr": "What is the complement of a Boolean equation?",
+			"imgStr": "",
+			"answers": ["The equation formed by negating both sides", "The equation formed by swapping the AND operations with OR operations", "The equation formed byt swapping the AND operations with NOT operations", "The equations formed by negating all AND operations to get NAND"]
+		},
+		
+		{
+			"questionStr": "What operation does the following logic gate represent?",
+			"imgStr": "cs-4-5",
+			"answers": ["AND", "OR", "NOT", "XOR"]
+		},
+		
+		{
+			"questionStr": "What operation does the following logic gate represent?",
+			"imgStr": "cs-4-6",
+			"answers": ["OR", "NOT", "XOR", "AND"]
+		},
+		
+		{
+			"questionStr": "What operation does the following logic gate represent?",
+			"imgStr": "cs-4-7",
+			"answers": ["NOT", "XOR", "AND", "OR"]
+		},
+		
+		{
+			"questionStr": "What operation does the following logic gate represent?",
+			"imgStr": "cs-4-8",
+			"answers": ["NAND", "XOR", "NOR", "NOT"]
+		},
+		
+		{
+			"questionStr": "What operation does the following logic gate represent?",
+			"imgStr": "cs-4-9",
+			"answers": ["NOR", "XOR", "NAND", "NOT"]
+		},
+		
+		{
+			"questionStr": "What are the most commonly used building blocks for most circuits?",
+			"imgStr": "",
+			"answers": ["NAND and NOR gates", "AND and OR gates", "AND, OR and NOT gates", "NAND, NOR and NOT gates"]
+		},
+		
+		{
+			"questionStr": "Which of the gates below is complete and what does this mean?",
+			"imgStr": "",
+			"answers": ["NAND; this means that any Boolean function can be written using only NAND", "AND; this means that any Boolean function can be written using only AND", "NAND; this means that NAND is made up of only transistors", "AND; this means that AND is made up of only transistors"]
+		},
+		
+		{
+			"questionStr": "How do we make a NOT gate from NAND gates?",
+			"imgStr": "",
+			"answers": ["NOT A = A NAND A", "NOT A = A AND A", "NOT A = (A NAND A) NAND A", "NOT A = (A NAND A) NAND (A NAND A)"]
+		},
+		
+		{
+			"questionStr": "How do we make an AND gate from NAND gates?",
+			"imgStr": "",
+			"answers": ["A AND B = (A NAND B) NAND (A NAND B))", "A AND B = (A NAND A) NAND (B NAND B)", "A AND B = (A NAND B) NAND A", "A AND B = (A NAND B) NAND B"]
+		},
+		
+		{
+			"questionStr": "How do we make an OR gate from NAND gates?",
+			"imgStr": "",
+			"answers": ["A OR B = (A NAND A) NAND (B NAND B)", "A OR B = (A NAND B) NAND (A NAND B)", "A OR B = (A NAND B) NAND A", "A OR B = (A NAND B) NAND B"]
+		},
+		
+		{
+			"questionStr": "Complete the definition of a 1-bit multiplexer for inputs A and B: if C (control) = 0, the output R = --1--. If c = 1, the output R = --2--",
+			"imgStr": "",
+			"answers": ["A, B", "A, C", "B, C", "C, R"]
+		},
+		
+		{
+			"questionStr": "How can we implement a 1-bit multiplexer with AND, OR and NOT gates?",
+			"imgStr": "",
+			"answers": ["R = (NOT C AND A) OR (C AND B)", "R = (NOT C AND A) AND (C AND B)", "R = (NOT C OR A) OR (C OR B)", "R = (C OR A) AND NOT (C OR B)"]
+		},
+		
+		{
+			"questionStr": "What is the best implementation of XOR gates from NAND gates?",
+			"imgStr": "",
+			"answers": ["A XOR B = (A NAND (A NAND B)) NAND (B NAND (A NAND B))", "A XOR B = (A NAND B) NAND (A NAND B)", "A XOR B = ((A NAND B) NAND (A NAND B)) NAND (A NAND B)", "A XOR B = ((A NAND A) NAND (B NAND A)) NAND (A NAND B)"]
+		}
+	]
+}

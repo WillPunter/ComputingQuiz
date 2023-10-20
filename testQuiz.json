@@ -1,0 +1,16 @@
+{
+	"title": "Basic Quiz",
+	"questions": [
+		{
+			"questionStr": "What is your name?",
+			"imgStr": "",
+			"answers": ["Will", "not Will", "Manny", "George"]
+		},
+		
+		{
+			"questionStr": "What is the capital of England?",
+			"imgStr": "",
+			"answers": ["London", "Moscow", "Beijing", "Washington D.C."]
+		}
+	]
+}
