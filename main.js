@@ -54,6 +54,11 @@ function startQuestion(questionNum){
 	var htmlString = "<h2>Question " + (questionNum + 1) + " out of " + quiz.questions.length + ":";
 	htmlString += "<h3>" + quiz.questions[questionNum].questionStr + "</h3>";
 	
+	//check for image
+	if(quiz.questions[questionNum].imgStr != ""){
+		htmlString += "<img src=\"./src/" + quiz.questions[quesitonNum].imgStr + "\">";
+	};
+	
 	//generate list of random numbers 0 to 3
 	var questionOrder = [];
 	
