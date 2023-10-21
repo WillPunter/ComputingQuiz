@@ -52,25 +52,25 @@
 		{
 			"questionStr": "What is the definition of the relation union operation, between two relations \\(R, S \\subseteq A \\times B\\)?",
 			"imgStr": "",
-			"answers": ["\\(R \\cup S = \\{\\langle a, b\\rangle \\in A \times B | \\langle a, b \\rangle \\in S  \\text{ or } \\langle a, b \\rangle \\in S \\}\\)", "\\(R \\cup S = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\in R \\text{ and } \\langle a, b \\rangle \\in S\\])", "\\(R \\cup S = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \notin R\\}\\)", "\\(R \\cup S = \\{\\langle b, a \\rangle \\in B \\times A | \\langle a, b \\rangle \\in R\\}\\)"]
+			"answers": ["\\(R \\cup S = \\{\\langle a, b\\rangle \\in A \\times B | \\langle a, b \\rangle \\in S  \\text{ or } \\langle a, b \\rangle \\in S \\}\\)", "\\(R \\cup S = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\in R \\text{ and } \\langle a, b \\rangle \\in S\\]\\)", "\\(R \\cup S = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\notin R\\}\\)", "\\(R \\cup S = \\{\\langle b, a \\rangle \\in B \\times A | \\langle a, b \\rangle \\in R\\}\\)"]
 		},
 		
 		{
 			"questionStr": "What is the definition of the relation intersection operation, between two relations \\(R, S \\subseteq A \\times B\\)?",
 			"imgStr": "",
-			"answers": ["\\(R \\cap S = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\in R \\text{ and } \\langle a, b \\rangle \\in S\\])", "\\(R \\cap S = \\{\\langle a, b\\rangle \\in A \\times B | \\langle a, b \\rangle \\in S  \\text{ or } \\langle a, b \\rangle \\in S \\}\\)", "\\(R \\cap S = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \notin R\\}\\)", "\\(R \\cap S = \\{\\langle b, a \\rangle \\in B \\times A | \\langle a, b \\rangle \\in R\\}\\)"]
+			"answers": ["\\(R \\cap S = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\in R \\text{ and } \\langle a, b \\rangle \\in S\\]\\)", "\\(R \\cap S = \\{\\langle a, b\\rangle \\in A \\times B | \\langle a, b \\rangle \\in S  \\text{ or } \\langle a, b \\rangle \\in S \\}\\)", "\\(R \\cap S = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\notin R\\}\\)", "\\(R \\cap S = \\{\\langle b, a \\rangle \\in B \\times A | \\langle a, b \\rangle \\in R\\}\\)"]
 		},
 		
 		{
 			"questionStr": "What is the definition of the relation complement operation, on a relation \\(R \\subseteq A \\times B\\)?",
 			"imgStr": "",
-			"answers": ["\\(\\bar{R} = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \notin R\\}\\)", "\\(\\bar{R} = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\in R \\text{ and } \\langle a, b \\rangle \\in S\\])", "\\(\\bar{R} = \\{\\langle a, b\\rangle \\in A \\times B | \\langle a, b \\rangle \\in S  \\text{ or } \\langle a, b \\rangle \\in S \\}\\)", "\\(\\bar{R} = \\{\\langle b, a \\rangle \\in B \\times A | \\langle a, b \\rangle \\in R\\}\\)"]
+			"answers": ["\\(\\bar{R} = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\notin R\\}\\)", "\\(\\bar{R} = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\in R \\text{ and } \\langle a, b \\rangle \\in S\\])", "\\(\\bar{R} = \\{\\langle a, b\\rangle \\in A \\times B | \\langle a, b \\rangle \\in S  \\text{ or } \\langle a, b \\rangle \\in S \\}\\)", "\\(\\bar{R} = \\{\\langle b, a \\rangle \\in B \\times A | \\langle a, b \\rangle \\in R\\}\\)"]
 		},
 		
 		{
 			"questionStr": "What is the definition of the relation inverse operation, on a relation \\(R \\subseteq A \\times B\\)?",
 			"imgStr": "",
-			"answers": ["\\(R^{-1} = \\{\\langle b, a \\rangle \\in B \\times A | \\langle a, b \\rangle \\in R\\}\\)", "\\(\\bar{R} = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \notin R\\}\\)", "\\(\\bar{R} = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\in R \\text{ and } \\langle a, b \\rangle \\in S\\])", "\\(\\bar{R} = \\{\\langle a, b\\rangle \\in A \\times B | \\langle a, b \\rangle \\in S  \\text{ or } \\langle a, b \\rangle \\in S \\}\\)"]
+			"answers": ["\\(R^{-1} = \\{\\langle b, a \\rangle \\in B \\times A | \\langle a, b \\rangle \\in R\\}\\)", "\\(\\bar{R} = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\notin R\\}\\)", "\\(\\bar{R} = \\{\\langle a, b \\rangle \\in A \\times B | \\langle a, b \\rangle \\in R \\text{ and } \\langle a, b \\rangle \\in S\\])", "\\(\\bar{R} = \\{\\langle a, b\\rangle \\in A \\times B | \\langle a, b \\rangle \\in S  \\text{ or } \\langle a, b \\rangle \\in S \\}\\)"]
 		},
 		
 		{
