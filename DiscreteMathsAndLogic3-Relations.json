@@ -40,11 +40,11 @@
 		{
 			"questionStr": "What is an n-ary relation?",
 			"imgStr": "",
-			"answers": ["An n-ary relation is a relation between n set - i.e. it is a subset of the Cartesian product of n sets. Each element of an n-ary relation is a n-tuple.", "An n-ary relation is a relation between n sets - i.e. it is a subset of the Cartesian product of n sets. Each subset of an n-ary relation is a n-tuple.", "An n-ary relation is a relation between n set - i.e. it is an element of the Cartesian product of n sets. Each element of an n-ary relation is a n-tuple.", "An n-ary relation is a relation between n set - i.e. it is a subset of the Cartesian product of n sets. Each element of an n-ary relation is a set of n values."]
+			"answers": ["An n-ary relation is a relation between n sets - i.e. it is a subset of the Cartesian product of n sets. Each element of an n-ary relation is a n-tuple.", "An n-ary relation is a relation between n sets - i.e. it is a subset of the Cartesian product of n sets. Each subset of an n-ary relation is a n-tuple.", "An n-ary relation is a relation between n sets - i.e. it is an element of the Cartesian product of n sets. Each element of an n-ary relation is a n-tuple.", "An n-ary relation is a relation between n sets - i.e. it is a subset of the Cartesian product of n sets. Each element of an n-ary relation is a set of n values."]
 		},
 		
 		{
-			"questionStr": "What are the basic delation operators?",
+			"questionStr": "What are the basic relation operators?",
 			"imgStr": "",
 			"answers": ["Relation union, relation interesection, relation complement, inverse relation", "Relation union, relation intersection, inverse relation", "Relation union, relation intersection", "Relation union, relation intersection, relation complement, inverse relation, relation projection"]
 		},
