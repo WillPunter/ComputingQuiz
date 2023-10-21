@@ -108,8 +108,8 @@ function checkAnswer(answerId){
 			score += 1;
 		};
 		
-		//automatically start next question
-		setTimeout(nextQuestion, 1500);
+		//create next question button
+		appBody.innerHTML += "<br/><br/><button onclick=\"nextQuestion()\">Next Question</button>";
 	};
 };
 
