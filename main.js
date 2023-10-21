@@ -81,7 +81,7 @@ function startQuestion(questionNum){
 	};
 	
 	for(i = 0; i < 4; i++){
-		htmlString += "<button id=\"quizButton" + questionOrder[i] + "\" onclick=\"checkAnswer(" + questionOrder[i] + ")\">" + quiz.questions[questionNum].answers[questionOrder[i]] + "</button><br/>"
+		htmlString += "<button id=\"quizButton" + questionOrder[i] + "\" onclick=\"checkAnswer(" + questionOrder[i] + ")\">" + quiz.questions[questionNum].answers[questionOrder[i]] + "</button><br/><br/>"
 	};
 	
 	//set html string

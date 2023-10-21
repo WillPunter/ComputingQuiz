@@ -33,7 +33,7 @@
 		
 		{
 			"questionStr": "What relation does the following matrix represet, given that it is on the sets \\(A\\) and \\(B\\), where \\(A = {a_1, a_2}\\) and \\(B = {b_1, b_2, b_3}\\)",
-			"imgStr": "",
+			"imgStr": "dm3-3.png",
 			"answers": ["\\(\\{ \\langle a_1, b_1 \\rangle, \\langle a_2, b_1 \\rangle, \\langle a_2, b_2\\}\\)", "\\(\\langle a_1, b_1 \\rangle\\, \\langle a_1, b_2 \\rangle, \\langle a_2, b_2 \\rangle \\)", "\\(\\{ \\langle a_1, b_2 \\rangle, \\langle a_2, b_1 \\rangle, \\langle a_2, b_2 \\}\\)", "\\(\\{ \\langle a_0, b_0 \\rangle, \\langle a_1, b_0 \\rangle, \\langle a_1, b_1\\}\\)"]
 		},
 		
