@@ -56,7 +56,7 @@ function startQuestion(questionNum){
 	
 	//check for image
 	if(quiz.questions[questionNum].imgStr != ""){
-		htmlString += "<img src=\"./src/" + quiz.questions[quesitonNum].imgStr + "\">";
+		htmlString += "<img src=\"./src/" + quiz.questions[questionNum].imgStr + "\">";
 	};
 	
 	//generate list of random numbers 0 to 3
